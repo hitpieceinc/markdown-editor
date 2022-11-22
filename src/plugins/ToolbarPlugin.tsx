@@ -58,7 +58,7 @@
  
  const blockTypeToBlockName = {
    bullet: "Bulleted List",
-   h1: "Heading",
+   h3: "Heading",
   //  h2: "Heading 2",
   //  h3: "Heading 3",
    check: "Check List",
@@ -121,28 +121,28 @@
          <i className="icon paragraph" />
          <span className="text">Normal</span>
        </DropDownItem>
-       <DropDownItem
+       {/* Markdown Editor allows for H1 #HP-1610 */}
+       {/* <DropDownItem
          className={"item " + dropDownActiveClass(blockType === "h1")}
          onClick={() => formatHeading("h1")}
        >
          <i className="icon h1" />
          <span className="text">Heading</span>
        </DropDownItem>
-       {/* Markdown Editor allows for H1 #HP-1610 */}
-       {/* <DropDownItem
+       <DropDownItem
          className={"item " + dropDownActiveClass(blockType === "h2")}
          onClick={() => formatHeading("h2")}
        >
          <i className="icon h2" />
          <span className="text">Heading 2</span>
-       </DropDownItem>
+       </DropDownItem> */}
        <DropDownItem
          className={"item " + dropDownActiveClass(blockType === "h3")}
          onClick={() => formatHeading("h3")}
        >
-         <i className="icon h3" />
-         <span className="text">Heading 3</span>
-       </DropDownItem> */}
+         <i className="icon title" />
+         <span className="text">Heading</span>
+       </DropDownItem>
      </DropDown>
    )
  }

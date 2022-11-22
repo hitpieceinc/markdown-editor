@@ -565,6 +565,10 @@ i.redo {
   background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/text-paragraph.svg);
 }
 
+.icon.title {
+  background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/title.svg);
+}
+
 .icon.h1 {
   background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/type-h1.svg);
 }
