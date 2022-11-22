@@ -565,10 +565,6 @@ i.redo {
   background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/text-paragraph.svg);
 }
 
-.icon.title {
-  background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/title.svg);
-}
-
 .icon.h1 {
   background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/type-h1.svg);
 }
@@ -577,8 +573,12 @@ i.redo {
   background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/type-h2.svg);
 }
 
-.icon.h3 {
+/* .icon.h3 {
   background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/type-h3.svg);
+} */
+
+.icon.h3 {
+  background-image: url(https://raw.githubusercontent.com/hitpieceinc/markdown-editor/main/src/icons/title.svg);
 }
 
 .icon.h4 {

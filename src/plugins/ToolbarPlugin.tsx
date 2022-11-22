@@ -140,7 +140,7 @@
          className={"item " + dropDownActiveClass(blockType === "h3")}
          onClick={() => formatHeading("h3")}
        >
-         <i className="icon title" />
+         <i className="icon h3" />
          <span className="text">Heading</span>
        </DropDownItem>
      </DropDown>
